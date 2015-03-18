@@ -14,7 +14,7 @@ Dependencies: VMware vSphere Perl SDK (written for v5.5, untested with others)
 
 Usage: check_vmdisk.py -s vCenter-SDK-url -u user -p password  -v vmname'
 
-Example: check_vmdisk.py -s https://vCenterServer:443:/sdk/webService -u readonly -p ropassword -v "Sample VM"
+Example: check_vmdisk.py -s https://vCenterServer:443/sdk/webService -u readonly -p ropassword -v "Sample VM"
 
 Install to a folder containing monitoring plugins.  Create the necessary CheckCommand and CheckService configuration files.
 Included are sample CheckCommand, CheckService and Host configuration files.  Make sure to add the appropriate arguments to the service check to be passed to the script.
