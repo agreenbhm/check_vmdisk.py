@@ -12,7 +12,7 @@ Default thresholds are: Warning - <=25%, Critical - <=10%.  Change this to whate
 
 Dependencies: VMware vSphere Perl SDK (written for v5.5, untested with others)
 
-Usage: check_vmdisk.py -s <vCenter-SDK-url> -u <user> -p <password>  -v <vmname>'
+Usage: check_vmdisk.py -s vCenter-SDK-url -u user -p password  -v vmname'
 
 Example: check_vmdisk.py -s https://vCenterServer:443:/sdk/webService -u readonly -p ropassword -v "Sample VM"
 
